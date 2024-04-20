@@ -2,7 +2,46 @@
 buildscript {
     ext.kotlin_version = "1.8.10"
     repositories {
-        google()
+        google({
+  "project_info": {
+    "project_number": "845087703750",
+    "project_id": "my-proyect-rm",
+    "storage_bucket": "my-proyect-rm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845087703750:android:09ed8194be1ed288b7cdc7",
+        "android_client_info": {
+          "package_name": "rmsports1902.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845087703750-c3ok2k210c9g0fhng0jso3udus7ipdpg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCGOk69W3wc3k8ht0iWQAT-ENaSHAc1zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845087703750-c3ok2k210c9g0fhng0jso3udus7ipdpg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4515090347648941~5174015957"
+    }
+  ],
+  "configuration_version": "1"
+})
         jcenter()
     }
     dependencies {
